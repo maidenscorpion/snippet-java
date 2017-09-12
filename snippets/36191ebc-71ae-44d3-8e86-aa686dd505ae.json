@@ -1,0 +1,20 @@
+{
+  "uuid": "36191ebc-71ae-44d3-8e86-aa686dd505ae",
+  "name": "println",
+  "description": "",
+  "extraSearchTerms": [],
+  "tags": [
+    "console",
+    "leitura"
+  ],
+  "code": "System.out.println();\r\n${cursor}\r\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
