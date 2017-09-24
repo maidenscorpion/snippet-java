@@ -1,0 +1,22 @@
+{
+  "uuid": "f8bee7d0-1ef8-4d0d-b49e-d618faedcae3",
+  "name": "print",
+  "description": "Leitura de dados no console na mesma linha",
+  "extraSearchTerms": [
+    "leitura de dados mesma linha"
+  ],
+  "tags": [
+    "console",
+    "leitura"
+  ],
+  "code": "System.out.print(\"\");${cursor}\r\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
