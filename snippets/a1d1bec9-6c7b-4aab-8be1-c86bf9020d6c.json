@@ -1,0 +1,23 @@
+{
+  "uuid": "a1d1bec9-6c7b-4aab-8be1-c86bf9020d6c",
+  "name": "string troca virgula por ponto",
+  "description": "realizar a leitura de dados e realizar a troca de uma virgula por ponto",
+  "extraSearchTerms": [
+    "leitura de dados com troca de strings",
+    "troca de virgula por ponto"
+  ],
+  "tags": [
+    "console",
+    "leitura de dados"
+  ],
+  "code": "Scanner ${entrada:newName(java.util.Scanner)} \u003d new Scanner(System.in);\r\n\r\nSystem.out.println(\"Digite um numero: \");\r\nString ${texto:newName(java.lang.String)} \u003d ${entrada}.nextLine();\r\n${texto} \u003d ${texto}.replace(\u0027,\u0027, \u0027.\u0027);\r\n\r\ndouble ${numero1:newName(double)} \u003d Double.parseDouble(${texto});\r\n\r\nSystem.out.println(\"Digite outro numero: \");\r\nString ${texto2:newName(java.lang.String)} \u003d ${entrada}.nextLine();\r\n${texto2} \u003d ${texto2}.replace(\u0027,\u0027, \u0027.\u0027);\r\n\r\ndouble ${numero2:newName(double)} \u003d Double.parseDouble(${texto2});\r\n\r\ndouble ${resultado:newName(double)} \u003d ${numero1} + ${numero2};\r\n\r\nSystem.out.print(${resultado});\r\n${:import(java.util.Scanner)}${cursor}\r\n",
+  "location": "FILE",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
