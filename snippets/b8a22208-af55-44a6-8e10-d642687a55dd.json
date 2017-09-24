@@ -1,0 +1,19 @@
+{
+  "uuid": "b8a22208-af55-44a6-8e10-d642687a55dd",
+  "name": "string caracterer por outro",
+  "description": "trocar ponto por virgula",
+  "extraSearchTerms": [],
+  "tags": [
+    "troca de string"
+  ],
+  "code": "//só colocar o main e testar\r\nString string \u003d \"3.14\";//vai trocar a , pelo .\r\n\r\nSystem.out.println(string);\r\n\r\nchar[] cs \u003d string.toCharArray(); //cria um array de String\r\n\r\n//pecorrer a String inicial\r\nfor (int i \u003d 0; i \u003c cs.length; i++) {\r\n\t//verifica se tem um elemento .\r\n\tif (cs[i] \u003d\u003d \u0027.\u0027) {\r\n\t\t//faz a troca do elemento\r\n\t\tcs[i] \u003d \u0027,\u0027;\r\n\t}\r\n}\r\n\r\n//imprime o novo elemento\r\nSystem.out.print(cs);\r\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
