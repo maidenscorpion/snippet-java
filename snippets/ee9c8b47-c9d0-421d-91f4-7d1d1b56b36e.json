@@ -1,0 +1,19 @@
+{
+  "uuid": "ee9c8b47-c9d0-421d-91f4-7d1d1b56b36e",
+  "name": "scanner",
+  "description": "entrada de dados",
+  "extraSearchTerms": [],
+  "tags": [
+    "entrada de dados"
+  ],
+  "code": "Scanner ${entrada:newName(java.util.Scanner)} \u003d new Scanner( System.in );\r\n${:import(java.util.Scanner)}${cursor}\r\n",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
