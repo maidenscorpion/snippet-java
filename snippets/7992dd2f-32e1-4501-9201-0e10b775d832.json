@@ -1,0 +1,21 @@
+{
+  "uuid": "7992dd2f-32e1-4501-9201-0e10b775d832",
+  "name": "printf",
+  "description": "System - valor que deve ser editado",
+  "extraSearchTerms": [
+    "leitura de dados"
+  ],
+  "tags": [
+    "console"
+  ],
+  "code": "System.out.printf(\"\", \"\");${cursor}\r\n",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
